@@ -1,0 +1,293 @@
+
+.navbar {
+    border: 0px solid transparent !important;
+    border-radius: 0px;
+    height: 45px;
+    /*overflow: hidden;*/
+    /*padding-top: 7px;*/
+    /*padding-bottom: 5px;*/
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 9px;
+    padding-bottom: 0px;
+    font-size: 12px;
+}
+
+.form-control:focus {
+    border-color: #0d1c33;
+    outline: 0;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, .00), 0 0 0px rgba(102, 175, 233, .0) !important;
+    box-shadow: inset 0 0px 0px rgba(0, 0, 0, .075), 0 0 0px rgba(102, 175, 233, .0) !important;
+}
+
+.form-control {
+    color: #8298ae !important;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, .0);
+    box-shadow: inset 0 0px 0px rgba(0, 0, 0, .0);
+    -webkit-transition: border-color ease-in-out 0s, -webkit-box-shadow ease-in-out 0s;
+    -o-transition: border-color ease-in-out 0s, box-shadow ease-in-out 0s;
+    transition: border-color ease-in-out 0s, box-shadow ease-in-out 0s;
+    border-radius: 0px;
+}
+
+/*.form-control {*/
+/*display: block;*/
+/*width: 100%;*/
+/*height: 34px;*/
+/*padding: 6px 12px;*/
+/*font-size: 14px;*/
+/*line-height: 1.42857143;*/
+/*color: #555;*/
+/*background-color: #fff;*/
+/*background-image: none;*/
+/*border: 1px solid #ccc;*/
+/*border-radius: 00px;*/
+
+/*}*/
+
+.navbar-brand {
+    line-height: 13px;
+}
+
+.dropdown-menu {
+    top: 45px;
+    font-size: 14px;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 10px solid #ccc;
+    border: 0px solid rgba(0, 0, 0, .15);
+    /*border-radius: 2px !important;*/
+    -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .175);
+    box-shadow: 0 0px 10px rgba(0, 0, 0, .175);
+}
+
+.dropdown-menu .divider {
+    /*margin: 3px 10px 0px 10px;*/
+    margin: 3px 0;
+}
+
+label {
+    font-family: 'AvenirNextLTPro-Regular', sans-serif;
+    color: #8298ae !important;
+}
+
+.navbar-form {
+    margin-top: 13px;
+    margin-left: 0px;
+}
+
+.btn-default {
+    color: #14d0a0;
+    background-color: transparent;
+    border: 2px solid #14d0a0;
+    font-family: 'AvenirNextLTPro-Bold', sans-serif;
+}
+
+.btn-default.btn-close {
+    color: #d2c242;
+    background-color: transparent;
+    border: 2px solid #d2c242;
+    font-family: 'AvenirNextLTPro-Bold', sans-serif;
+}
+
+.btn-default:hover {
+    color: #fff;
+    background-color: #14d0a0;
+    border-color: #14d0a0;
+}
+
+.btn-default.btn-close:hover {
+    color: #fff;
+    background-color: #8298ae;
+    border-color: #8298ae;
+}
+
+.btn-default2 {
+    color: #14d0a0;
+    background-color: transparent;
+    border: 2px solid #14d0a0;
+    font-family: 'AvenirNextLTPro-Bold', sans-serif;
+}
+
+.btn-default2.btn-close {
+    color: #d2c242;
+    background-color: transparent;
+    border: 2px solid #d2c242;
+    font-family: 'AvenirNextLTPro-Bold', sans-serif;
+}
+
+.btn-default2:hover {
+    color: #fff;
+    background-color: #14d0a0;
+    border-color: #14d0a0;
+}
+
+.btn-default2.btn-close:hover {
+    color: #fff;
+    background-color: #8298ae;
+    border-color: #8298ae;
+}
+
+.btn-default2:active {
+    color: #fff;
+    background-color: #14d0a0;
+    border-color: #8298ae;
+}
+
+.nav-tabs {
+    border-bottom: 0px solid #ddd;
+    padding: 0px 15px 0px 15px;
+}
+
+.console-main-tab {
+    background: #f7f7f7;
+    border-right: 0px solid #f7f7f7;
+    border-bottom: 0px solid #36ba45;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:active,
+.nav-tabs > li.active > a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 0px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs > li.active > a > uib-tab-heading > .tab-title {
+    color: #8fd53a;
+}
+
+.btn-tab-close > span.ti-close {
+    color: #feac02;
+}
+
+.btn-tab-close > span.ti-close:hover,
+.btn-tab-close > span.ti-close:active,
+.btn-tab-close > span.ti-close:focus {
+    color: #ff0000;
+}
+
+.nav-tabs > li.console-main-tab.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    cursor: default;
+    background-color: #ffffff;
+    border: 0px solid #ddd;
+    /*border-bottom: 2px solid #36ba45;*/
+}
+
+.ui-tabs-scrollable {
+    margin-top: 13px;
+}
+
+.console-main-tab >
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent !important;
+    border-radius: 8px 8px 0 0;
+}
+
+.bg-checkbox {
+    /*min-width: 72px;*/
+    width: auto;
+    height: 28px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 3px 10px;
+}
+
+.red {
+    background: #d90000;
+}
+
+.orange {
+    background: #ff8c00;
+}
+
+.teal600 {
+    background: #04756f;
+}
+
+.gray300 {
+    background: #8298ae;
+}
+
+.font-white {
+    color: #ffffff;
+}
+
+.progress-bar-warning {
+    background-color: #36ba45;
+}
+
+.progress-bar-success {
+    background-color: #d2c242;
+}
+
+.progress-bar-danger {
+    background-color: #14d0a0;
+}
+
+.alert-danger {
+    color: #fff;
+    background-color: #cc1e2d;
+    border-color: #d9042b;
+}
+
+.alert-success {
+    color: #fff;
+    background-color: #136480;
+    border-color: #1a8bb2;
+}
+
+.alert-warning {
+    color: #fff;
+    background-color: #efc94c;
+    border-color: #f4cb89;
+}
+
+input:focus, textarea:focus, keygen:focus, select:focus {
+    outline: 0 !important;
+}
+
+.ui-tabs-scrollable > .spacer > div:first-child > .tab-content > .active {
+    overflow: hidden;
+}
+
+.form-group > ul.dropdown-menu {
+    min-width: 310px;
+    background-color: #f7f7f7;
+    border-radius: 0 !important;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+    border: 1px solid #D9DEE4;
+}
+
+.form-group > ul.dropdown-menu > li > a {
+    font-family: 'AvenirNextLTPro-Regular', sans-serif;
+    color: #8298ae;
+}
+
+.form-group > ul.dropdown-menu > li > a:hover,
+.form-group > ul.dropdown-menu > li > a:focus,
+.form-group > ul.dropdown-menu > li > a:active,
+.form-group > ul.dropdown-menu > li.active > a,
+.form-group > ul.dropdown-menu > li.active > a:focus,
+.form-group > ul.dropdown-menu > li.active > a:hover {
+    color: #fff !important;
+    text-decoration: none;
+    background-color: #36ba45 !important;
+    outline: 0;
+}
+
+
